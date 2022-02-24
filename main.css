@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.txt-color{
+	color: #0B2D50;
+	font-weight: bold;
+}
+
+.big-font{
+	font-size: 27px;
+}
+
+label{
+	letter-spacing: .5px;
+}
+
+button[type='submit']{
+	background-color: #0B2D50; 
+	color: white;
+}
+
+button[type='submit']:hover{
+	color: white;
+	border-color: #5CB099;
+}
+
+
+input[type='text']:focus{
+	box-shadow: none;
+	border-color: #5CB099;
+}
+
+
+.over-pic{
+	text-transform: uppercase;
+	display: block;
+	margin-top: -100px;
+	font-size: 30px;
+}
